@@ -1,3 +1,73 @@
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a1a,40:1a1040,100:302b63&height=160&section=header&text=NightWatch&fontSize=40&fontColor=ffffff&fontAlignY=45&desc=L'app%20qui%20veille%20sur%20ta%20soirée%20·%20STARIAX&descAlignY=68&descColor=c4b5fd" />
+
+</div>
+
+<div align="center">
+
+[![STARIAX](https://img.shields.io/badge/Groupe-STARIAX-7c3aed?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Morgan-Reichert)
+[![iOS](https://img.shields.io/badge/iOS-Swift-000000?style=for-the-badge&logo=swift&logoColor=white)](#)
+[![Web](https://img.shields.io/badge/Web-PWA-302b63?style=for-the-badge&logo=pwa&logoColor=white)](#)
+[![Beta](https://img.shields.io/badge/statut-Bêta%20ouverte-f59e0b?style=for-the-badge)](#)
+
+</div>
+
+---
+
+## 📸 Aperçu
+
+> 🖼️ **Pour ajouter tes screenshots :** Upload tes images dans ce repo (`Add file` → `Upload files`), puis remplace les liens ci-dessous.
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+![Screenshot 1](https://placehold.co/600x340/0a0a1a/c4b5fd?text=📸+Screenshot+1+—+Accueil)
+*Écran d'accueil*
+
+</td>
+<td width="50%" align="center">
+
+![Screenshot 2](https://placehold.co/600x340/1a1040/ffffff?text=📸+Screenshot+2+—+Suivi+soirée)
+*Suivi en temps réel*
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+
+![Screenshot iOS](https://placehold.co/300x580/0f0c29/a78bfa?text=📱+iOS+App)
+*Version iOS*
+
+</td>
+<td width="50%" align="center">
+
+![Screenshot Web](https://placehold.co/600x340/302b63/f59e0b?text=📸+Version+Web+PWA)
+*Version Web (PWA)*
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧪 Tester NightWatch en version bêta
+
+<div align="center">
+
+> **NightWatch est en bêta ouverte !**
+> Tu cherches une app pour mieux gérer tes soirées entre amis ? Deviens bêta-testeur — iOS ou Web, ton choix.
+> Tes retours m'aident directement à améliorer l'app.
+
+[![✉️ Rejoindre la bêta NightWatch](https://img.shields.io/badge/✉️%20Rejoindre%20la%20bêta%20NightWatch-f59e0b?style=for-the-badge)](mailto:morgan.reichert.pro@outlook.com?subject=Beta%20NightWatch&body=Bonjour%20Morgan%2C%20je%20souhaite%20tester%20NightWatch%20en%20version%20bêta.)
+
+*Précise dans ton mail si tu veux tester la version iOS ou Web · Réponse sous 48h* 📬
+
+</div>
+
+---
+
 # NightWatch
 
 > L'app qui veille sur ta soirée — Groupe [Stariax Belgium](https://github.com/Morgan-Reichert/STARIAX)
@@ -123,3 +193,4 @@ Ouvrir `NightwatchiOS.xcodeproj` dans Xcode, configurer les variables Supabase d
 ---
 
 *Stariax Belgium — Bruxelles, 2026*
+

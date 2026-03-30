@@ -1,0 +1,4 @@
+project_id = "mxgacltqayawsphoebdv"
+
+[functions.detect-drink]
+verify_jwt = false

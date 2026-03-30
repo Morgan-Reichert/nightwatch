@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		957ECBFA2F70AE50004B3E7E /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = A9000001 /* Supabase */; };
+		A1000001 /* NightwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001 /* NightwatchApp.swift */; };
+		A1000002 /* SupabaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* SupabaseClient.swift */; };
+		A1000003 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* Profile.swift */; };
+		A1000004 /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004 /* Party.swift */; };
+		A1000005 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005 /* Drink.swift */; };
+		A1000006 /* Friendship.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006 /* Friendship.swift */; };
+		A1000007 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000007 /* Story.swift */; };
+		A1000008 /* PartyPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000008 /* PartyPhoto.swift */; };
+		A1000009 /* MemberLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000009 /* MemberLocation.swift */; };
+		A1000010 /* PukeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000010 /* PukeEvent.swift */; };
+		A1000011 /* ShopEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000011 /* ShopEvent.swift */; };
+		A1000012 /* PartyMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000012 /* PartyMember.swift */; };
+		A1000013 /* UserPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000013 /* UserPurchase.swift */; };
+		A1000014 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000014 /* ShopItem.swift */; };
+		A1000015 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000015 /* Badge.swift */; };
+		A1000016 /* BACCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000016 /* BACCalculator.swift */; };
+		A1000017 /* StreakService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000017 /* StreakService.swift */; };
+		A1000018 /* BadgeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000018 /* BadgeService.swift */; };
+		A1000019 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000019 /* Color+Extensions.swift */; };
+		A1000020 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000020 /* View+Extensions.swift */; };
+		A1000021 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000021 /* AuthViewModel.swift */; };
+		A1000022 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000022 /* AuthView.swift */; };
+		A1000023 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000023 /* HomeViewModel.swift */; };
+		A1000024 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000024 /* HomeView.swift */; };
+		A1000025 /* BACGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000025 /* BACGaugeView.swift */; };
+		A1000026 /* DrinkSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000026 /* DrinkSelectorView.swift */; };
+		A1000027 /* CameraScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000027 /* CameraScannerView.swift */; };
+		A1000028 /* SocialFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000028 /* SocialFeedView.swift */; };
+		A1000029 /* EmergencyActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000029 /* EmergencyActionsView.swift */; };
+		A1000030 /* PartyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000030 /* PartyViewModel.swift */; };
+		A1000031 /* PartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000031 /* PartyView.swift */; };
+		A1000032 /* PartyPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000032 /* PartyPhotosView.swift */; };
+		A1000033 /* MemberMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000033 /* MemberMapView.swift */; };
+		A1000034 /* LeaderboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000034 /* LeaderboardViewModel.swift */; };
+		A1000035 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000035 /* LeaderboardView.swift */; };
+		A1000036 /* FriendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000036 /* FriendsViewModel.swift */; };
+		A1000037 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000037 /* FriendsView.swift */; };
+		A1000038 /* ShopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000038 /* ShopViewModel.swift */; };
+		A1000039 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000039 /* ShopView.swift */; };
+		A1000040 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000040 /* SettingsViewModel.swift */; };
+		A1000041 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000041 /* SettingsView.swift */; };
+		A1000042 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000042 /* MainTabView.swift */; };
+		A1000043 /* UserProfileModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000043 /* UserProfileModal.swift */; };
+		A1000044 /* StreakDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000044 /* StreakDisplayView.swift */; };
+		A1000045 /* BadgesSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000045 /* BadgesSectionView.swift */; };
+		A1000046 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000046 /* AvatarView.swift */; };
+		A1000047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000047 /* Assets.xcassets */; };
+		A1000048 /* PartyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000048 /* PartyRequest.swift */; };
+		A1000050 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000050 /* Config.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2000001 /* NightwatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightwatchApp.swift; sourceTree = "<group>"; };
+		A2000002 /* SupabaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseClient.swift; sourceTree = "<group>"; };
+		A2000003 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		A2000004 /* Party.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Party.swift; sourceTree = "<group>"; };
+		A2000005 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		A2000006 /* Friendship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friendship.swift; sourceTree = "<group>"; };
+		A2000007 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		A2000008 /* PartyPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyPhoto.swift; sourceTree = "<group>"; };
+		A2000009 /* MemberLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberLocation.swift; sourceTree = "<group>"; };
+		A2000010 /* PukeEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PukeEvent.swift; sourceTree = "<group>"; };
+		A2000011 /* ShopEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopEvent.swift; sourceTree = "<group>"; };
+		A2000012 /* PartyMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyMember.swift; sourceTree = "<group>"; };
+		A2000013 /* UserPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPurchase.swift; sourceTree = "<group>"; };
+		A2000014 /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		A2000015 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		A2000016 /* BACCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BACCalculator.swift; sourceTree = "<group>"; };
+		A2000017 /* StreakService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakService.swift; sourceTree = "<group>"; };
+		A2000018 /* BadgeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeService.swift; sourceTree = "<group>"; };
+		A2000019 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		A2000020 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		A2000021 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		A2000022 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		A2000023 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A2000024 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A2000025 /* BACGaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BACGaugeView.swift; sourceTree = "<group>"; };
+		A2000026 /* DrinkSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkSelectorView.swift; sourceTree = "<group>"; };
+		A2000027 /* CameraScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScannerView.swift; sourceTree = "<group>"; };
+		A2000028 /* SocialFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialFeedView.swift; sourceTree = "<group>"; };
+		A2000029 /* EmergencyActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyActionsView.swift; sourceTree = "<group>"; };
+		A2000030 /* PartyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyViewModel.swift; sourceTree = "<group>"; };
+		A2000031 /* PartyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyView.swift; sourceTree = "<group>"; };
+		A2000032 /* PartyPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyPhotosView.swift; sourceTree = "<group>"; };
+		A2000033 /* MemberMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberMapView.swift; sourceTree = "<group>"; };
+		A2000034 /* LeaderboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewModel.swift; sourceTree = "<group>"; };
+		A2000035 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		A2000036 /* FriendsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewModel.swift; sourceTree = "<group>"; };
+		A2000037 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		A2000038 /* ShopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModel.swift; sourceTree = "<group>"; };
+		A2000039 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		A2000040 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		A2000041 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A2000042 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A2000043 /* UserProfileModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileModal.swift; sourceTree = "<group>"; };
+		A2000044 /* StreakDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakDisplayView.swift; sourceTree = "<group>"; };
+		A2000045 /* BadgesSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesSectionView.swift; sourceTree = "<group>"; };
+		A2000046 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		A2000047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000048 /* PartyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyRequest.swift; sourceTree = "<group>"; };
+		A2000049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2000050 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		A3000001 /* NightwatchiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightwatchiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957ECBFA2F70AE50004B3E7E /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5000001 = {
+			isa = PBXGroup;
+			children = (
+				A5000002 /* NightwatchiOS */,
+				A5000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5000002 /* NightwatchiOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2000001 /* NightwatchApp.swift */,
+				A2000049 /* Info.plist */,
+				A2000047 /* Assets.xcassets */,
+				A5000010 /* Core */,
+				A5000020 /* Features */,
+				A5000040 /* Shared */,
+			);
+			path = NightwatchiOS;
+			sourceTree = "<group>";
+		};
+		A5000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3000001 /* NightwatchiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5000010 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A2000002 /* SupabaseClient.swift */,
+				A2000050 /* Config.swift */,
+				A5000011 /* Models */,
+				A5000012 /* Services */,
+				A5000013 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A5000011 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2000003 /* Profile.swift */,
+				A2000004 /* Party.swift */,
+				A2000005 /* Drink.swift */,
+				A2000006 /* Friendship.swift */,
+				A2000007 /* Story.swift */,
+				A2000008 /* PartyPhoto.swift */,
+				A2000009 /* MemberLocation.swift */,
+				A2000010 /* PukeEvent.swift */,
+				A2000011 /* ShopEvent.swift */,
+				A2000012 /* PartyMember.swift */,
+				A2000013 /* UserPurchase.swift */,
+				A2000014 /* ShopItem.swift */,
+				A2000015 /* Badge.swift */,
+				A2000048 /* PartyRequest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5000012 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A2000016 /* BACCalculator.swift */,
+				A2000017 /* StreakService.swift */,
+				A2000018 /* BadgeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A5000013 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A2000019 /* Color+Extensions.swift */,
+				A2000020 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A5000020 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A5000021 /* Auth */,
+				A5000022 /* Home */,
+				A5000023 /* Party */,
+				A5000024 /* Leaderboard */,
+				A5000025 /* Friends */,
+				A5000026 /* Shop */,
+				A5000027 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A5000021 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				A2000021 /* AuthViewModel.swift */,
+				A2000022 /* AuthView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		A5000022 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A2000023 /* HomeViewModel.swift */,
+				A2000024 /* HomeView.swift */,
+				A2000025 /* BACGaugeView.swift */,
+				A2000026 /* DrinkSelectorView.swift */,
+				A2000027 /* CameraScannerView.swift */,
+				A2000028 /* SocialFeedView.swift */,
+				A2000029 /* EmergencyActionsView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A5000023 /* Party */ = {
+			isa = PBXGroup;
+			children = (
+				A2000030 /* PartyViewModel.swift */,
+				A2000031 /* PartyView.swift */,
+				A2000032 /* PartyPhotosView.swift */,
+				A2000033 /* MemberMapView.swift */,
+			);
+			path = Party;
+			sourceTree = "<group>";
+		};
+		A5000024 /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				A2000034 /* LeaderboardViewModel.swift */,
+				A2000035 /* LeaderboardView.swift */,
+			);
+			path = Leaderboard;
+			sourceTree = "<group>";
+		};
+		A5000025 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				A2000036 /* FriendsViewModel.swift */,
+				A2000037 /* FriendsView.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		A5000026 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				A2000038 /* ShopViewModel.swift */,
+				A2000039 /* ShopView.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		A5000027 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A2000040 /* SettingsViewModel.swift */,
+				A2000041 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A5000040 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A2000042 /* MainTabView.swift */,
+				A2000043 /* UserProfileModal.swift */,
+				A2000044 /* StreakDisplayView.swift */,
+				A2000045 /* BadgesSectionView.swift */,
+				A2000046 /* AvatarView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6000001 /* NightwatchiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7000001 /* Build configuration list for PBXNativeTarget "NightwatchiOS" */;
+			buildPhases = (
+				A8000001 /* Sources */,
+				A4000001 /* Frameworks */,
+				A8000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NightwatchiOS;
+			packageProductDependencies = (
+				A9000001 /* Supabase */,
+			);
+			productName = NightwatchiOS;
+			productReference = A3000001 /* NightwatchiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A6000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A7000002 /* Build configuration list for PBXProject "NightwatchiOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5000001;
+			packageReferences = (
+				AB000001 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			productRefGroup = A5000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6000001 /* NightwatchiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000047 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* NightwatchApp.swift in Sources */,
+				A1000002 /* SupabaseClient.swift in Sources */,
+				A1000003 /* Profile.swift in Sources */,
+				A1000004 /* Party.swift in Sources */,
+				A1000005 /* Drink.swift in Sources */,
+				A1000006 /* Friendship.swift in Sources */,
+				A1000007 /* Story.swift in Sources */,
+				A1000008 /* PartyPhoto.swift in Sources */,
+				A1000009 /* MemberLocation.swift in Sources */,
+				A1000010 /* PukeEvent.swift in Sources */,
+				A1000011 /* ShopEvent.swift in Sources */,
+				A1000012 /* PartyMember.swift in Sources */,
+				A1000013 /* UserPurchase.swift in Sources */,
+				A1000014 /* ShopItem.swift in Sources */,
+				A1000015 /* Badge.swift in Sources */,
+				A1000048 /* PartyRequest.swift in Sources */,
+				A1000016 /* BACCalculator.swift in Sources */,
+				A1000017 /* StreakService.swift in Sources */,
+				A1000018 /* BadgeService.swift in Sources */,
+				A1000019 /* Color+Extensions.swift in Sources */,
+				A1000020 /* View+Extensions.swift in Sources */,
+				A1000021 /* AuthViewModel.swift in Sources */,
+				A1000022 /* AuthView.swift in Sources */,
+				A1000023 /* HomeViewModel.swift in Sources */,
+				A1000024 /* HomeView.swift in Sources */,
+				A1000025 /* BACGaugeView.swift in Sources */,
+				A1000026 /* DrinkSelectorView.swift in Sources */,
+				A1000027 /* CameraScannerView.swift in Sources */,
+				A1000028 /* SocialFeedView.swift in Sources */,
+				A1000029 /* EmergencyActionsView.swift in Sources */,
+				A1000030 /* PartyViewModel.swift in Sources */,
+				A1000031 /* PartyView.swift in Sources */,
+				A1000032 /* PartyPhotosView.swift in Sources */,
+				A1000033 /* MemberMapView.swift in Sources */,
+				A1000034 /* LeaderboardViewModel.swift in Sources */,
+				A1000035 /* LeaderboardView.swift in Sources */,
+				A1000036 /* FriendsViewModel.swift in Sources */,
+				A1000037 /* FriendsView.swift in Sources */,
+				A1000038 /* ShopViewModel.swift in Sources */,
+				A1000039 /* ShopView.swift in Sources */,
+				A1000040 /* SettingsViewModel.swift in Sources */,
+				A1000041 /* SettingsView.swift in Sources */,
+				A1000042 /* MainTabView.swift in Sources */,
+				A1000043 /* UserProfileModal.swift in Sources */,
+				A1000044 /* StreakDisplayView.swift in Sources */,
+				A1000045 /* BadgesSectionView.swift in Sources */,
+				A1000046 /* AvatarView.swift in Sources */,
+				A1000048 /* PartyRequest.swift in Sources */,
+				A1000050 /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7000020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = PZZ8ZR5L8M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NightwatchiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nightwatch.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7000021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = PZZ8ZR5L8M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NightwatchiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nightwatch.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7000001 /* Build configuration list for PBXNativeTarget "NightwatchiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7000020 /* Debug */,
+				A7000021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7000002 /* Build configuration list for PBXProject "NightwatchiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7000010 /* Debug */,
+				A7000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB000001 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9000001 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB000001 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AA000001 /* Project object */;
+}
